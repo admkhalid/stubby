@@ -242,9 +242,9 @@ upstream_recursive_servers:
 ## Cloudflare 1.1.1.1 and 1.0.0.1
 ## (NOTE: recommend reducing idle_timeout to 9000 if using Coudflare)
 #  - address_data: 1.1.1.1
-#    tls_auth_name: "cloudflare-dns.com"
+#    tls_auth_name: "1dot1dot1dot1.cloudflare-dns.com"
 #  - address_data: 1.0.0.1
-#    tls_auth_name: "cloudflare-dns.com"
+#    tls_auth_name: "1dot1dot1dot1.cloudflare-dns.com"
 ## The Uncensored DNS servers
 #  - address_data: 89.233.43.71
 #    tls_auth_name: "unicast.censurfridns.dk"
